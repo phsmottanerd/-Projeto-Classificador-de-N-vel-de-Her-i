@@ -17,8 +17,10 @@ if (experiencia < 1000) {
     nivel = "Ascendente";
 } else if (experiencia >= 9001 && experiencia <= 10000) {
     nivel = "Imortal";
+    
 } else {
     nivel = "Radiante";
 }
 
 console.log(`O Herói de nome ${nome} está no nível de ${nivel}`);
+
